@@ -1,6 +1,3 @@
-// import { useEffect } from 'react';
-// import { useAppDispatch, useAppSelector } from '../../store/hooks';
-// import { Grid } from '@material-ui/core';
 import {
   Link
 } from "react-router-dom";
@@ -8,7 +5,6 @@ import styles from './Header.module.css';
 import { useLocation } from 'react-router-dom';
 
 function Header() {
-    // const dispatch = useAppDispatch();
     const location = useLocation();
     
     return (
