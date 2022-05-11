@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.inputContainer {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inputContainer:last-child {
+    margin-bottom: 0;
+}
+
+.inputTitle {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+.inputContainer input,
+.inputContainer textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #8b8b8b;
+    padding: 5px 5px 5px 10px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #8b8b8b;
+    font-weight: 500;
+}
+
+.inputContainer textarea {
+    resize: none;
+}
+
+.inputContainer input:focus,
+.inputContainer textarea:focus {
+    border: 1px solid #1f1f1f;
+    color: #1f1f1f;
+}
+
+.coords {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8b8b8b;
+}
+
+.coord:first-child {
+    margin-right: 10px;
+}
+
+.mapContainer {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border: none;
+    box-shadow: none;
+    background: #a0a0a0;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #b6b6b6;
+}
+
+@media screen and (min-width: 370px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .container {
+        height: calc(100vh - 45px);
+    }
+
+    .mapContainer {
+        height: 100%;
+    }
+
+    .inputContainer {
+        max-width: 300px;
+    }
+
+    .inputTitle {
+        font-size: 18px;
+    }
+}

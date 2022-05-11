@@ -1,0 +1,14 @@
+.contentContainer {
+    width: 100%;
+    height: calc(100vh - 45px);
+}
+
+.pointName {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.pointDescription {
+    white-space: pre-wrap;
+}
