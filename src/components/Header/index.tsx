@@ -19,17 +19,6 @@ function Header() {
                 <Link to='/points-list'>Все точки</Link>
             </div>
         </div>
-        // <div>
-        //     <div>
-        //        <Link to='/'>Карта</Link>
-        //     </div>
-        //     <div>
-        //         <Link to='/add-point'>Добавить точку</Link>
-        //     </div>
-        //     <div>
-        //         <Link to='/points-list'>Все точки</Link>
-        //     </div>
-        // </div>
     )
 }
 
